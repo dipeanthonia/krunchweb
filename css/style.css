@@ -36,6 +36,31 @@ i{
     border-radius: 2px;
     margin: 10px auto;
 }
+.img_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(6, 137, 244, 0.8);
+    color: #5c5c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.img_overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+.img_overlay:hover {
+    opacity: 1;
+}
+.img_overlay > *{
+    transform: translateY(0);
+}
 header .container{
     width:100%;
     background-image: url("../images/background_image_1.jpg");
@@ -379,31 +404,6 @@ header .container{
     position: relative;
 }
 
-.img_overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(6, 137, 244, 0.8);
-    color: #5c5c5c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-.img_overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-
-}
-.img_overlay:hover {
-    opacity: 1;
-}
-.img_overlay > *{
-    transform: translateY(0);
-}
 .img_overlay a:hover{
     background-color: white;
 }
