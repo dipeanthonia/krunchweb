@@ -754,11 +754,9 @@ header .container{
     }
     .about-img img {
         width: fit-content;
-        border: 3px solid purple;
     }
     .port-images {
         flex-direction: column;
-        border: 3px dashed darkgoldenrod;
     }
     .port1,
     .port2,
@@ -769,7 +767,6 @@ header .container{
     .port7,
     .port8 {
         width: inherit;
-        border: 3px solid purple;
     }
     .test-title {
         margin-top: 20px;
