@@ -809,7 +809,10 @@ header .container{
         margin-top: 30px;
     }
     .vidcontent p{
-        font-size: 14px;
+        font-size: 15px;
+    }
+    .vidcontent a{
+        font-size: 15px;
     }
     .news-img {
         margin-left: 0;
